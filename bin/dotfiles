@@ -22,9 +22,9 @@ fi
 
 # 克隆仓库
 if ! [[ -d "$DOTFILES_DIR" ]]; then
-  git clone "https://github.com/$GITHUB_USER/$GITHUB_REPO.git" "$DOTFILES_DIR"
+  # git clone "https://github.com/$GITHUB_USER/$GITHUB_REPO.git" "$DOTFILES_DIR"
   # 或者使用 SSH 克隆
-  #git clone "git@github.com:$GITHUB_USER/$GITHUB_REPO.git" "$DOTFILES_DIR"
+  git clone "git@github.com:$GITHUB_USER/$GITHUB_REPO.git" "$DOTFILES_DIR"
 else
   git -C "$DOTFILES_DIR" pull
 fi
