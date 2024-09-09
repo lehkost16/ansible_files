@@ -2,7 +2,7 @@
 set -e
 
 # 在这里填 github 用户名和仓库名
-GITHUB_USER=lehkost
+GITHUB_USER=lehkost16
 GITHUB_REPO=ansible_files
 
 # 设置 dotfiles 文件路径
