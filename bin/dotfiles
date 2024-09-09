@@ -2,8 +2,8 @@
 set -e
 
 # 在这里填 github 用户名和仓库名
-GITHUB_USER=your_username
-GITHUB_REPO=your_reponame
+GITHUB_USER=lehkost
+GITHUB_REPO=ansible_files
 
 # 设置 dotfiles 文件路径
 DOTFILES_DIR="${XDG_CONFIG_HOME:-${HOME}/.config}/dotfiles"
